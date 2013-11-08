@@ -1,0 +1,11 @@
+// Created by iWeb 3.0.4 local-build-20131107
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_1:new IWStrokeParts([{rect:new IWRect(-2,2,4,96),url:'Contact_files/stroke_8.png'},{rect:new IWRect(-2,-2,4,4),url:'Contact_files/stroke_9.png'},{rect:new IWRect(2,-2,96,4),url:'Contact_files/stroke_10.png'},{rect:new IWRect(98,-2,4,4),url:'Contact_files/stroke_11.png'},{rect:new IWRect(98,2,4,96),url:'Contact_files/stroke_12.png'},{rect:new IWRect(98,98,4,4),url:'Contact_files/stroke_13.png'},{rect:new IWRect(2,98,96,4),url:'Contact_files/stroke_14.png'},{rect:new IWRect(-2,98,4,4),url:'Contact_files/stroke_15.png'}],new IWSize(100,100)),stroke_0:new IWStrokeParts([{rect:new IWRect(-2,2,4,53),url:'Contact_files/stroke.png'},{rect:new IWRect(-2,-2,4,4),url:'Contact_files/stroke_1.png'},{rect:new IWRect(2,-2,75,4),url:'Contact_files/stroke_2.png'},{rect:new IWRect(77,-2,4,4),url:'Contact_files/stroke_3.png'},{rect:new IWRect(77,2,4,53),url:'Contact_files/stroke_4.png'},{rect:new IWRect(77,55,4,5),url:'Contact_files/stroke_5.png'},{rect:new IWRect(2,55,75,5),url:'Contact_files/stroke_6.png'},{rect:new IWRect(-2,55,4,5),url:'Contact_files/stroke_7.png'}],new IWSize(79,57)),stroke_2:new IWStrokeParts([{rect:new IWRect(-2,2,4,96),url:'Contact_files/stroke_16.png'},{rect:new IWRect(-2,-2,4,4),url:'Contact_files/stroke_17.png'},{rect:new IWRect(2,-2,96,4),url:'Contact_files/stroke_18.png'},{rect:new IWRect(98,-2,4,4),url:'Contact_files/stroke_19.png'},{rect:new IWRect(98,2,4,96),url:'Contact_files/stroke_20.png'},{rect:new IWRect(98,98,4,4),url:'Contact_files/stroke_21.png'},{rect:new IWRect(2,98,96,4),url:'Contact_files/stroke_22.png'},{rect:new IWRect(-2,98,4,4),url:'Contact_files/stroke_23.png'}],new IWSize(100,100))});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('Contact_files/ContactMoz.css')
+adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');fixAllIEPNGs('Media/transparent.gif');Widget.onload();IMpreload('Contact_files','shapeimage_5','0');IMpreload('Contact_files','shapeimage_5','1');fixupIECSS3Opacity('id4');applyEffects()}
+function onPageUnload()
+{Widget.onunload();}

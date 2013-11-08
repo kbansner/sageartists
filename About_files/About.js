@@ -1,0 +1,11 @@
+// Created by iWeb 3.0.4 local-build-20131107
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_1:new IWStrokeParts([{rect:new IWRect(-2,2,4,135),url:'About_files/stroke.png'},{rect:new IWRect(-2,-2,4,4),url:'About_files/stroke_1.png'},{rect:new IWRect(2,-2,184,4),url:'About_files/stroke_2.png'},{rect:new IWRect(186,-2,4,4),url:'About_files/stroke_3.png'},{rect:new IWRect(186,2,4,135),url:'About_files/stroke_4.png'},{rect:new IWRect(186,137,4,5),url:'About_files/stroke_5.png'},{rect:new IWRect(2,137,184,5),url:'About_files/stroke_6.png'},{rect:new IWRect(-2,137,4,5),url:'About_files/stroke_7.png'}],new IWSize(188,139)),stroke_0:new IWPhotoFrame([IWCreateImage('About_files/Creme_frame2_01.png'),IWCreateImage('About_files/Creme_frame2_02.png'),IWCreateImage('About_files/Creme_frame2_04.png'),IWCreateImage('About_files/Creme_frame2_08.png'),IWCreateImage('About_files/Creme_frame2_09.png'),IWCreateImage('About_files/Creme_frame2_14.png'),IWCreateImage('About_files/Creme_frame2_13.png'),IWCreateImage('About_files/Creme_frame2_05.png')],null,0,1.000000,3.000000,3.000000,3.000000,3.000000,23.000000,23.000000,23.000000,23.000000,20.000000,19.000000,20.000000,19.000000,null,null,null,0.400000),shadow_1:new IWShadow({blurRadius:3,offset:new IWPoint(0.1736,0.9848),color:'#817b67',opacity:0.700000}),shadow_0:new IWShadow({blurRadius:3,offset:new IWPoint(0.1736,0.9848),color:'#817b67',opacity:0.700000})});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('About_files/AboutMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');adjustLineHeightIfTooBig('id4');adjustFontSizeIfTooBig('id4');adjustLineHeightIfTooBig('id5');adjustFontSizeIfTooBig('id5');adjustLineHeightIfTooBig('id6');adjustFontSizeIfTooBig('id6');adjustLineHeightIfTooBig('id7');adjustFontSizeIfTooBig('id7');fixAllIEPNGs('Media/transparent.gif');Widget.onload();IMpreload('About_files','shapeimage_4','0');IMpreload('About_files','shapeimage_4','1');fixupIECSS3Opacity('id8');applyEffects()}
+function onPageUnload()
+{Widget.onunload();}
